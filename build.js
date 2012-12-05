@@ -3,13 +3,16 @@
     
 	dir:"./RequireJsOptimizePractice/scripts-built",
 	
-	name:"main",
-	
 	mainConfigFile:"./RequireJsOptimizePractice/scripts/main.js",
-    /*out:"main-built.js",*/
-	include:[
-			"text",
-			"text!../templates/myAccount.xml",
+	
+	modules:[
+				{
+					name:"main",
+					include:[
+							"text",
+							"text!../templates/myAccount.xml",
+							]
+				}
 			],
     optimize:"none",
 	paths:{
