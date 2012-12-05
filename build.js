@@ -1,0 +1,11 @@
+({
+    baseUrl:"./RequireJsOptimizePractice/scripts",
+    name:"main",
+    out:"main-built.js",
+	include:"entrance",
+    optimize:"none",
+	paths:{
+            'underscore':'lib/underscore',
+            'jquery':'lib/jquery-latest'
+        }
+})
