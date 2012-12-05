@@ -1,0 +1,31 @@
+<div id="myAccount">
+    <h2>My Account</h2>
+    <dl>
+        <dt>Name</dt>
+        <dd>
+            <span class="firstName">&nbsp;</span>
+            <span class="lastName">&nbsp;</span>
+        </dd>
+
+        <dt>City</dt>
+        <dd class="city">&nbsp;</dd>
+
+        <dt>Username (Email)</dt>
+        <dd class="username">&nbsp;</dd>
+    </dl>
+    <!--
+    <dl class="accountPassword">
+        <dt>Password</dt>
+        <dd>
+            <a href="#" class="changePassword">Change Password</a>
+        </dd>
+    </dl>
+    <dl class="accountServiceLevel">
+        <dt>Service Level</dt>
+        <dd>
+            <span>ETF / 12 Month</span>
+            <a href="#" class="changePlan">Change Plan</a>
+        </dd>
+    </dl>
+    -->
+</div>
